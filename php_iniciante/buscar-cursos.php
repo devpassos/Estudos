@@ -1,7 +1,11 @@
 <?php
 
 require 'vendor/autoload.php';
-require 'src/Buscador.php';
+# require 'src/Buscador.php';
+
+Teste::metodo();
+exibeMensagem("Eu gosto de comer macarrão!!");
+exit();
 
 use Alura\BuscadorDeCursos\Buscador;
 use GuzzleHttp\Client;
